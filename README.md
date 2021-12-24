@@ -53,7 +53,7 @@ E: The repository 'http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu foc
 ```
 To solve:
 1. `sudo vim /etc/apt/sources.list.d/nathan-renniewaldock-ubuntu-flux-focal.list`
-2. Replace `focal` to `bionic` and save it.
+2. Replace `focal` to `bionic` and save it. The file should contain the following line: `deb http://ppa.launchpad.net/nathan-renniewaldock/flux/ubuntu bionic main`.
 3. Repeat [above](#ubuntu-ppa-package-manager-install) mentioned steps from line 2. 
 
 
